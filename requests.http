@@ -4,7 +4,7 @@ Content-Type: application/json
 
 
 {
-  "name": "Andres Rodas Cassagne",
+  "name": "pepe2",
   "age": 35,
   "email": "Rodas@email.com",
   "city": "guayaquilcity",
@@ -24,12 +24,12 @@ GET http://localhost:9000/api/users/63e88240000b173a7d133cd7 HTTP/1.1
 DELETE http://localhost:9000/api/users/63e88240000b173a7d133cd7 HTTP/1.1
 
 ###
-PUT http://localhost:9000/api/users/63e88240000b173a7d133cd7 HTTP/1.1
+PUT http://localhost:9000/api/users/ HTTP/1.1
 Content-Type: application/json
 
 {
-  "name": "Andres Rodas Cassagne",
-  "age": 35,
+  "name": "manuel8",
+  "age": 37,
   "email": "Rodas@email.com",
   "city": "guayaquilcity",
   "state": "provincia del guayas",
